@@ -5,7 +5,7 @@ import whatsappLogo from "../assets/whatsapp.svg";
 
 const SocialMedia = () => {
   return (
-    <div className="absolute bottom-0 right-2 flex flex-col gap-2">
+    <div className="absolute bottom-0 right-2 flex flex-col gap-5">
       <a href="https://www.github.com/BauTancredi" rel="noreferrer" target="_blank">
         <img alt="github link" className="w-24 cursor-pointer invert" src={githubLogo} />
       </a>
